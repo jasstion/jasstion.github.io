@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fong的博客</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jasstion.github.io/"/>
+  <updated>2016-07-21T09:27:30.339Z</updated>
+  <id>https://jasstion.github.io/</id>
+  
+  <author>
+    <name>Fong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML5高性能基础</title>
+    <link href="https://jasstion.github.io/2016/07/21/HTML5%E9%AB%98%E6%80%A7%E8%83%BD%E5%9F%BA%E7%A1%80/"/>
+    <id>https://jasstion.github.io/2016/07/21/HTML5高性能基础/</id>
+    <published>2016-07-21T09:07:38.000Z</published>
+    <updated>2016-07-21T09:27:30.339Z</updated>
+    
+    <content type="html"><![CDATA[<p>当谈到Web的“高性能”时，很多人想到的是页面加载时间，但其实性能不仅仅是指加载时间，还包括浏览器性能、网络性能、开发效率。在Web前端开发中，性能是一个非常重要的需要考虑的点。本文将介绍一些开发原则和性能准则，这些都是提高Web前端性能的基础。<br><a id="more"></a></p>
+<h4 id="1-开发原则"><a href="#1-开发原则" class="headerlink" title="1. 开发原则"></a>1. 开发原则</h4><h4 id="1-1-编写符合当代浏览器性能的代码"><a href="#1-1-编写符合当代浏览器性能的代码" class="headerlink" title="1.1 编写符合当代浏览器性能的代码"></a>1.1 编写符合当代浏览器性能的代码</h4><p>如果想提高前端性能，就必须理解浏览器的工作原理，哪怕是个大概，这样才能知道性能瓶颈在哪里以及如何优化。下图展示了Webkit浏览器从代码（HTML+CSS）到用户最终看到页面的处理过程。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当谈到Web的“高性能”时，很多人想到的是页面加载时间，但其实性能不仅仅是指加载时间，还包括浏览器性能、网络性能、开发效率。在Web前端开发中，性能是一个非常重要的需要考虑的点。本文将介绍一些开发原则和性能准则，这些都是提高Web前端性能的基础。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="https://jasstion.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="前端" scheme="https://jasstion.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="HTML5" scheme="https://jasstion.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/HTML5/"/>
+    
+    
+      <category term="HTML5" scheme="https://jasstion.github.io/tags/HTML5/"/>
+    
+      <category term="高性能" scheme="https://jasstion.github.io/tags/%E9%AB%98%E6%80%A7%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo的基本用法</title>
+    <link href="https://jasstion.github.io/2016/07/21/hello-world/"/>
+    <id>https://jasstion.github.io/2016/07/21/hello-world/</id>
+    <published>2016-07-21T06:26:59.658Z</published>
+    <updated>2016-07-21T09:31:04.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://jasstion.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://jasstion.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
